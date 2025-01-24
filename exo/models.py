@@ -2,7 +2,7 @@ from exo.inference.shard import Shard
 from typing import Optional, List
 
 model_cards = {
-  "falcon-180b": { "layers": 80, "repo": { "MLXDynamicShardInferenceEngine": "tiiuae/falcon-180B-chat", }, },
+  "falcon-180b": { "layers": 40, "repo": { "MLXDynamicShardInferenceEngine": "tiiuae/falcon-180B-chat", }, },
   "falcon-3-1b": { "layers": 32, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Falcon3-1B-Instruct-4bit", }, },
   ### llama
   "llama-3.3-70b": {
