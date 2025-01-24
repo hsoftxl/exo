@@ -32,6 +32,7 @@ class ModelNotFoundError(Exception):
 
 
 MODEL_REMAPPING = {
+  "falcon": "llama",
   "mistral": "llama",  # mistral is compatible with llama
   "phi-msft": "phixtral",
 }
